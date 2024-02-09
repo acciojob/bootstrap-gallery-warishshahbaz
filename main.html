@@ -4,10 +4,40 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+ <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Lightbox CSS -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.css" rel="stylesheet">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
+
+<div class="container">
+  <h2 class="text-center mt-5 mb-4">Cards Gallery</h2>
+  <div class="row">
+
+    <!-- Card 1 -->
+    <div class="col-md-4 mb-4">
+      <a href="resources/Image1.jpg" data-toggle="lightbox" data-gallery="gallery">
+        <div class="card h-100">
+          <img src="resources/Image1.jpg" class="card-img-top" alt="Image 1">
+          <div class="card-body text-center">
+            <h6 class="card-title">Description 1</h6>
+            <p class="card-text">Details 1</p>
+          </div>
+        </div>
+      </a>
+    </div>
+
+    <!-- Add more cards here -->
+
+  </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<!-- Lightbox JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js"></script>
     <script type="text/javascript" src="./script.js">
 </script>
 
